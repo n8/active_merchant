@@ -1,4 +1,4 @@
-require "paysimple"
+require File.dirname(__FILE__) + '/paysimple/paysimple'
 
 module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
